@@ -63,9 +63,6 @@ public class Q3 {
             output.add(operators.pop());
         }
 
-        // Debug: print postfix
-        System.out.println("POSTFIX: " + output);
-
         // --- Step 2: convert POSTFIX → Expression tree ---
         Stack<Expression> exprStack = new Stack<>();
 
